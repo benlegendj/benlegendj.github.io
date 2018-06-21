@@ -1,0 +1,39 @@
+.wrapper {
+    background: url('../img/cardi.jpg') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.content {
+    text-align: center;
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+    color: #25dc47;
+    letter-spacing: 2px;
+}
+
+input {
+    margin: 20px;
+}
+
+input[type=text] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 2px;
+    box-sizing: border-box;
+}
+
+input[type=button] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}

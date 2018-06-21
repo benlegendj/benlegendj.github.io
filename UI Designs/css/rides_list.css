@@ -1,0 +1,150 @@
+body {
+    height: 600px;
+    background: #2d343d;
+}
+.row {
+    height: 80%;
+    background-color: ghostwhite;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 5px;
+}
+
+p {
+    color: burlywood;
+    text-align: center;
+}
+
+.form {
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 45%;
+    height: 80%;
+    padding: 30px 25px;
+    background: white;
+    border: 1px solid #c4c4c4;
+}
+
+h1.form-title {
+    margin: -28px -25px 25px;
+    padding: 15px 25px;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #ADADAD;
+    text-align: center;
+    background: #f7f7f7;
+    border-radius: 10px;
+}
+
+.submit-button {
+    width: 96px;
+    height: 50px;
+    padding: 0;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background: #3e7243;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: 0;
+}
+
+.form-input {
+    width: 95%;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    font-size: 15px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-input:focus {
+    border-color: #6e8095;
+    outline: none;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+.search {
+    width: 100%;
+    position: relative
+}
+
+.searchTerm {
+    float: left;
+    width: 100%;
+    border: 3px solid #00B4CC;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchTerm:focus {
+    color: #00B4CC;
+}
+
+.searchButton {
+    position: absolute;
+    right: -50px;
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.wrap {
+    width: 30%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

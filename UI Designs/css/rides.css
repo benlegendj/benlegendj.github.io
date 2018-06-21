@@ -1,0 +1,146 @@
+body {
+    background: #2d343d;
+    color: rgb(83, 80, 80);
+    font-size: 100%;
+    font-weight: 400;
+}
+
+.row {
+    height: 800px;
+    background-color: ghostwhite;
+    width: 80%;
+    margin-left: 10%;
+}
+
+form {
+    border-top: 5px solid #01caa7;
+    width: 552px;
+    margin: 40px auto;
+}
+
+fieldset {
+    margin: auto;
+    width: 470px;
+    height: auto;
+    border: 1px solid #e5e5e5;
+    border-top: 0px solid #e5e5e5;
+    background: #bbb0b0;
+    padding: 40px;
+}
+
+form div {
+    padding: 0 0 40px 0;
+}
+
+form label {
+    float: left;
+    width: 200px;
+    font-size: 1em;
+    color: #111;
+}
+
+form label.mid {
+    line-height: 40px;
+}
+
+form input,
+form select {
+    background: #dae7e5;
+    border: 2px solid #266158;
+    color: rgb(22, 21, 21);
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    height: 40px;
+    margin: 0;
+    padding: 0 10px;
+    width: 240px;
+    vertical-align: middle;
+}
+
+form select {
+    float: left;
+    margin-bottom: 40px;
+    appearance: none;
+    width: 260px;
+    border-radius: 0;
+}
+
+form input.checkbox,
+form input.radio {
+    margin: 0;
+    padding: 2px 0;
+    width: auto;
+    height: auto;
+}
+
+form input.button {
+    width: 270px;
+    height: 40px;
+    border: 0px solid #fff;
+}
+
+form textarea {
+    width: 240px;
+    height: 180px;
+    padding: 10px;
+    background: #d9dfde;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+form input.submit {
+    float: left;
+    margin-left: 200px;
+    width: 100px;
+    height: 40px;
+    color: rgb(16, 16, 16);
+}
+
+p {
+    color: ghostwhite;
+}
+
+.search {
+    width: 100%;
+    position: relative
+}
+
+.searchTerm {
+    float: left;
+    width: 100%;
+    border: 3px solid #00B4CC;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchTerm:focus {
+    color: #00B4CC;
+}
+
+.searchButton {
+    position: absolute;
+    right: -50px;
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+
+.wrap {
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
